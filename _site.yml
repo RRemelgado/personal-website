@@ -1,8 +1,8 @@
-name: "MAS data catalog"
-title: 'MAS data catalog'
+name: "Ruben Remelgado"
+title: 'Ruben Remelgado'
 favicon: 'https://github.com/macroecology-society/data-catalog/images/favicon.ico'
 description: |
-  MAS data catalog
+  My personal website
 output_dir: "docs"
 
 navbar:
@@ -13,7 +13,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Team"
+    - text: "Me"
       href: https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html
     - icon: fa-wrench
       text: masDMT
