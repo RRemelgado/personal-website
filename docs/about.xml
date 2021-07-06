@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Ruben Remelgado</title>
+    <link>https://github.com/RRemelgado/personal-website/</link>
+    <atom:link href="https://github.com/RRemelgado/personal-website/about.xml" rel="self" type="application/rss+xml"/>
+    <description>My personal website
+</description>
+    <image>
+      <title>Ruben Remelgado</title>
+      <url>https://github.com/RRemelgado/personal-website/https://github.com/macroecology-society/data-catalog/images/favicon.ico</url>
+      <link>https://github.com/RRemelgado/personal-website/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Beck climate map</title>
+      <link>https://github.com/RRemelgado/personal-website/posts/beckclimatemap</link>
+      <description>Global Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change</description>
+      <category>global</category>
+      <category>climate</category>
+      <category>koppen-geiger</category>
+      <category>1-kilometer</category>
+      <guid>https://github.com/RRemelgado/personal-website/posts/beckclimatemap</guid>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://github.com/RRemelgado/personal-website/posts/beckclimatemap/beckclimatemap.png" medium="image" type="image/png" width="300" height="150"/>
+    </item>
+  </channel>
+</rss>
