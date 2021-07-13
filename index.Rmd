@@ -1,5 +1,54 @@
 ---
-title: ""
+title: "personal"
 site: distill::distill_website
 css: post.css
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{css, echo=FALSE}
+d-title, d-byline {display: none}
+```
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<img style="width:200px;display:block;margin-left:auto;margin-right:auto;margin-top:20%;" src="./images/me.png">
+<div style="border-top:3px solid #77C66E;padding-top:20px;margin:20px;display:flex;flex-direction:row;justify-content:center;">
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a title="twitter" href="https://twitter.com/rubenremelgado" style="text-align:center;cursor:pointer;" target="_blank"><img src="./images/twitter.png" height=30px></a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a title="researchgate" href="https://www.researchgate.net/profile/Ruben-Remelgado" style="text-align:center;cursor:pointer;" target="_blank"><img src="./images/researchgate.png" height=30px></a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a title="github" href="https://github.com/RRemelgado" style="text-align:center;cursor:pointer;" target="_blank"><img src="./images/github.png" height=30px></a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+<a title="gmail" href="mailto:ruben.remelgado@gmail.com" style="text-align:center;cursor:pointer;" target="_blank"><img src="./images/gmail.png" height=30px></a>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+</div>
+
+<h3 style="text-align:center;">Welcome to my website</h3>
+
+<p align='justify'>
+I stumbled into Geography in 2009, and was quickly hooked. As a Geographer, I built my career in several international and multidisciplinary environments. I moved through Portugal, Italy, and Germany, acquiring advanced methodological and technical skills in spatial data analysis. With this website, I wish to give you and overview `about` myself, and about my `skills`, `cv`, and `projects`. If you are interested, please feel welcome to contact me..
+</p>
+
+<hr>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+

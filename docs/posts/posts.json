@@ -1,19 +1,19 @@
 [
   {
-    "path": "posts/beckclimatemap/",
-    "title": "Beck climate map",
-    "description": "Global Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change",
+    "path": "posts/GlobES/",
+    "title": "GlobES",
+    "description": "Global, yearly mapping of 71 ecosystem types at a 1-km resolution over nearly three decades (1992-2018), a fundamental baseline to achieve the targets within the UN Post-2020 Framework for Biodiversity",
     "author": [],
-    "date": "2020-08-10",
+    "date": "2021-07-07",
     "categories": [
       "global",
-      "climate",
-      "koppen-geiger",
-      "1-kilometer"
+      "ecosystems",
+      "IUCN",
+      "time-series"
     ],
-    "contents": "\r\n\r\n\r\nDetails\r\n\r\n\r\nThe present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. The new maps including the associated confidence maps are freely available via www.gloh2o.org/koppen.\r\n\r\n\r\nSubdatsets\r\n\r\ndata_id\r\ndescription\r\nBECK_climateMap/futureClass\r\nFuture climate\r\nBECK_climateMap/futureConfidence\r\nFuture climate (confidence)\r\nBECK_climateMap/presentClass\r\nPresent climate\r\nBECK_climateMap/presentConfidence\r\nPresent climate (confidence)\r\n\r\n\r\nFormat\r\n\r\n\r\nGrid\r\n\r\n\r\nSpatial extent:\r\n\r\n\r\nGlobal\r\n\r\n\r\nTemporal frequency:\r\n\r\n\r\nMulti-year Snapshot(s)\r\n\r\n\r\nDocumentation\r\n\r\n\r\nClick here for more\r\n\r\n\r\nLicense:\r\n\r\n\r\nCC-BY-SA-4.0\r\n\r\n\r\nVersion\r\n\r\n\r\n1.0\r\n\r\n\r\nResolution\r\n\r\n\r\n0.08 degrees\r\n\r\n\r\nTime frame\r\n\r\n\r\n1986 - 2100\r\n\r\n\r\nLegend\r\n\r\ndownload\r\n\r\n\r\nBibliography\r\n\r\nBitTex Download\r\n\r\n\r\n\r\nauthor: Ruben Remelgado\r\n\r\n\r\nAffiliation: Macroecology and Society\r\n\r\nWhere there mistakes? Click here to edit it them in GitHub repository\r\n\r\n",
-    "preview": "posts/beckclimatemap/beckclimatemap.png",
-    "last_modified": "2021-07-06T18:28:40+02:00",
+    "contents": "\r\nWhy develop this project?\r\n\r\n\r\nIn an era where global biodiversity is under persistent threat (XXXX) and many species have already been lost (XXXX), the work of initiatives such as the IUCN Red List is critical. This initiative is an essential source of data on biodiversity threats, reporting on numbers and declines of individual species. Additionally, the IUCN Red List provides expert knowledge on species-habitat linkages, which we can use to anticipate threats related to changes in ecosystems extent. While this link between ecosystems and species is clear, until recently, a comprehensive database of maps was missing and, until now, no time-series datasets exist. The latter is fundamental, as the long-term monitoring of ecosystem extents show us trends in ecosystem extent change that help us anticipate new biodiversity crisis.\r\n\r\nDominant ecosystems between 1992 and 2018. Map of ecosystems with the largest area within each 1x1-km pixel, based on global per-pixel areas of 71 ecosystems, mapped between 1992 and 2018.\r\n\r\nSpatial scope\r\n\r\n\r\nGlobal\r\n\r\n\r\nTemporal scope\r\n\r\n\r\nMulti-year Snapshot(s)\r\n\r\n\r\nDocumentation\r\n\r\n\r\nPaper under review\r\n\r\n\r\nDeveloped under\r\n\r\nWhat did we do?\r\n\r\nWe capitalize on recent progress in multi-decade environmental mapping to map the sub-pixel areas-of-occupancy of 71 terrestrial, freshwater, coastal and oceanic ecosystem types annually between 1992 and 2018 at 1-km resolution. For immediate conservation applicability, we adopt the habitat class scheme of the IUCN Red List of Threatened Species. The products are validated using species range and occurrence data, showing high overall accuracies (88% at 10-km resolution), and are accompanied by data on regional uncertainties.\r\n\r\nHow does it compare to existing data?\r\n\r\nRecently, Jung et al. developed the first maps of ecosystem extent following the IUCN typology. Similarly to us, they made a substantial effort collating varied global datasets on multiple environmental variables (e.g. land cover, climate), combining them through empirical rulesets that translate ecosystem definitions into combinations of environmental drivers. While this effort is indeed commendable, it has some limitations that impair its use in the detection of threatened species. Our paper provides an in-depth comparison of our validation efforts for both products, where we show GlobES is shown to be substantially better, both locally and regionally, demonstrating a better fit to expert knowledge on ecosystem occurrences.\r\n\r\nFound some mistakes? Click here to edit it them in the GitHub repository\r\n",
+    "preview": "posts/GlobES/GlobES.png",
+    "last_modified": "2021-07-08T13:12:47+02:00",
     "input_file": {},
     "preview_width": 300,
     "preview_height": 150

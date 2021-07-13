@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Ruben Remelgado</title>
+    <link>https://github.com/RRemelgado/personal-website/</link>
+    <atom:link href="https://github.com/RRemelgado/personal-website/projects.xml" rel="self" type="application/rss+xml"/>
+    <description>My personal website
+</description>
+    <image>
+      <title>Ruben Remelgado</title>
+      <url>https://github.com/RRemelgado/personal-website/https://github.com/macroecology-society/data-catalog/images/favicon.ico</url>
+      <link>https://github.com/RRemelgado/personal-website/</link>
+    </image>
+    <generator>Distill</generator>
+    <lastBuildDate>Wed, 07 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>GlobES</title>
+      <link>https://github.com/RRemelgado/personal-website/posts/GlobES</link>
+      <description>Global, yearly mapping of 71 ecosystem types at a 1-km resolution over nearly three decades (1992-2018), a fundamental baseline to achieve the targets within the UN Post-2020 Framework for Biodiversity</description>
+      <category>global</category>
+      <category>ecosystems</category>
+      <category>IUCN</category>
+      <category>time-series</category>
+      <guid>https://github.com/RRemelgado/personal-website/posts/GlobES</guid>
+      <pubDate>Wed, 07 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://github.com/RRemelgado/personal-website/posts/GlobES/GlobES.png" medium="image" type="image/png" width="300" height="150"/>
+    </item>
+  </channel>
+</rss>

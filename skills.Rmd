@@ -1,0 +1,78 @@
+---
+title: "skills"
+site: distill::distill_website
+css: ["post.css","container.css"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo=FALSE}
+d-title, d-byline {display: none}
+```
+
+<hr>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div>
+
+<h3 style="border-bottom:3px solid #77C66E;margin:10;width:80vh;">Multidisciplinary workflows</h3>
+<details style="cursor: pointer;">
+<p align="justify">
+
+</p>
+
+</div>
+
+<aside>
+<img src="./images/symbol_multidisciplinary.png" width=80 style="border:3px solid #77C66E;border-radius: 50%;background-color:#ffffff;">
+</aside>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div>
+
+<h3 style="border-bottom:3px solid #77C66E;margin:10;width:80vh;">Counseling and mentoring</h3>
+<details>
+<p align="justify">
+</p>
+
+</div>
+
+<aside>
+<img src="./images/symbol_counseling.png" width=80 style="border:3px solid #77C66E;border-radius: 50%;background-color:#ffffff;">
+</aside>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div>
+
+<h3 style="border-bottom:3px solid #77C66E;margin:10;width:80vh;">Coding and data management</h3>
+
+<details>
+<p align="justify">
+My daily work involves the mobilization of large datasets with Gigabytes - and even Terabytes! - of data, making coding a critical tool. I often combine R and Python, using the first for generic data management and the latter for large-scale spatial data analysis. In this process, I developed several R packages to make my job more efficient, such as <a href="https://github.com/RRemelgado/rsMove">**rsMove**</a>, <a href="https://github.com/RRemelgado/CAWaR">**CAWaR**</a>, and <a href="https://github.com/RRemelgado/fieldRS">**fieldRS**</a>. More recently, I developed <a href="">**masDMT**</a>, whcih offers a light system to manage and access data within the Macroecology and Society (MAS) lab, build standardized reports and plots, and submit jobs to iDiv's cloud computing resources.
+</p>
+</div>
+<aside>
+<img src="./images/symbol_tools.png" width=80 style="border:3px solid #77C66E;border-radius: 50%;background-color:#ffffff;">
+</aside>
+
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<div>
+
+<h3 style="border-bottom:3px solid #77C66E;margin:10;width:80vh;">Data integration</h3>
+<details>
+<p align="justify">
+I built my career within multidisciplinary settings, and this motivated me to develop skills in data integration. In the past, I mobilized large amounts of data such as satellite imagery (e.g. Landsat, MODIS, Sentinel), climate reanalysis and meteorological observations (e.g. <a href="https://www.ecad.eu/dailydata/">**ECAD**</a>), high-resolution GPS tracking data (e.g. <a href="https://www.movebank.org/cms/movebank-main">**MoveBank**</a>), species observations (e.g. <a href="https://www.gbif.org/">**GBIF**</a>), and land statistics (e.g. <a href="http://www.fao.org/faostat/en/#data/QC">**FAOSTAT**</a>). Integrating multiple data sources is a common aspect of my daily work, and these data frequently differ in type, spatial and temporal scale, and thematic scope.
+</p>
+</div>
+<aside>
+<img src="./images/symbol_data.png" width=80 style="border:3px solid #77C66E;border-radius: 50%;background-color:#ffffff;">
+</aside>
+
+

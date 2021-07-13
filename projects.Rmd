@@ -1,0 +1,14 @@
+---
+title: "projects"
+site: distill::distill_website
+listing: posts
+css: post.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{css, echo=FALSE}
+d-title, d-byline {display: none}
+```

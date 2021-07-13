@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://github.com/RRemelgado/personal-website/about.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,27 +86,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Ruben Remelgado: </title>
+  <title>Ruben Remelgado: about</title>
   
   
   <link rel="icon" type="image/vnd.microsoft.icon" href="https://github.com/macroecology-society/data-catalog/images/favicon.ico"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Ruben Remelgado: "/>
+  <meta property="og:title" content="Ruben Remelgado: about"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Ruben Remelgado"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Ruben Remelgado: "/>
+  <meta property="twitter:title" content="Ruben Remelgado: about"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing","css"]}},"value":[{"type":"character","attributes":{},"value":[""]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"character","attributes":{},"value":["post.css"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","css"]}},"value":[{"type":"character","attributes":{},"value":["about"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["post.css"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2032,6 +2031,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
   
   <!--/radix_placeholder_distill-->
+  <script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+  <script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+  <link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+  <link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+  <script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+  <script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+  <link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-binding-2.0.4.1/leaflet.js"></script>
+  <link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.css" rel="stylesheet" />
+  <link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.Default.css" rel="stylesheet" />
+  <script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.js"></script>
+  <script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.freezable.js"></script>
+  <script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.layersupport.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2041,6 +2054,18 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <script type="text/javascript" src="https://www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+  <script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+  cookieconsent.run({
+  'notice_banner_type':'simple',
+  'consent_type': 'express',
+  'palette': 'light',
+  'language': 'en',
+  'website_name': 'Ruben Remelgado',
+  'cookies_policy_url': 'url',
+  'change_preferences_selector':'#CookiePreferences'
+  });});</script>
   <style type="text/css">
   .distill-site-nav {
     color: #777777;
@@ -2085,12 +2110,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"","authors":[]}
+{"title":"about","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2105,12 +2130,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">Me</a>
+<a href="index.html">contact</a>
+<a href="about.html">about</a>
+<a href="cv.html">cv</a>
+<a href="skills.html">skills</a>
+<a href="projects.html">projects</a>
 <a href="https://github.com/RRemelgado/personal-website/" aria-label="GitHub">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
-<a href="mailto:mas@idiv.de" aria-label="mail">
+<a href="mailto:ruben.remelgado@idiv.de" aria-label="mail">
 <i class="fa fa-envelope" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2120,216 +2148,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption=""></h1>
-<a href="posts/beckclimatemap/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["global","climate","koppen-geiger","1-kilometer"]}</script>
-<div class="metadata">
-<div class="publishedDate">Aug. 10, 2020</div>
-<div class="dt-authors"></div>
-</div>
-<div class="thumbnail">
-<img src="posts/beckclimatemap/beckclimatemap.png"/>
-</div>
-<div class="description">
-<h2>Beck climate map</h2>
-<div class="dt-tags">
-<div class="dt-tag">global</div>
-<div class="dt-tag">climate</div>
-<div class="dt-tag">koppen-geiger</div>
-<div class="dt-tag">1-kilometer</div>
-</div>
-<p>Global Köppen-Geiger climate classification at a 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change</p>
-</div>
-</a>
-</div>
-<div class="posts-sidebar">
-<div><div class="sidebar-section custom">
-  <h3>Something about me</h3>
-  <p align='justify'>Welcome! I'm glad to share something about me and my work</p>
-  &nbsp;
-  &nbsp;
-  <h3>A product of</h3>
-  <img href="https://www.idiv.de/en/groups_and_people/core_groups/macroecosocial.html" width='200' src="images/logo_transparent.png">
-  &nbsp;
-  &nbsp;
-  <h3>Funded by</h3>
-  <img href="https://www.volkswagenstiftung.de/en/funding/our-funding-portfolio-at-a-glance/freigeist-fellowships" width='200' src="images/freigeist.png">
-  &nbsp;
-  &nbsp;
-  <h3>Built with</h3>
-  <img href="https://rstudio.github.io/distill/" width='200' src="https://rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png">
-  &nbsp;
-  &nbsp;
-</div>
-</div>
-<div class="sidebar-section categories">
-<h3>Categories</h3>
-<ul>
-<li>
-<a href="#category:articles">articles</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:1-kilometer">1-kilometer</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:climate">climate</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:global">global</a>
-<span class="category-count">(1)</span>
-</li>
-<li>
-<a href="#category:koppen-geiger">koppen-geiger</a>
-<span class="category-count">(1)</span>
-</li>
-</ul>
-</div>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>about.knit</h1>
+<h1>about</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2337,6 +2158,39 @@ function init_posts_list() {
 
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-body">
+<style type="text/css">
+d-title, d-byline {display: none}
+</style>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<p><br> <br></p>
+<div style="margin:0 auto;padding:0 auto;height:1000px;">
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<h3 style="border-bottom:3px solid #77C66E;margin:10;">
+What do I do (as a geographer)?
+</h3>
+<p align="justify">
+As a friend once phrased, <cite>Geography is not a science, it’s a philosophy</cite>. Most sciences focus on a particular component of the natural and human world, from climate to animal behavior. But Geography has no clear focus. Instead, it looks at those components as interdependent, interacting in space and time to form a larger system. With a firm eye on that complexity, geographers adopt a multidisciplinary approach to science. They push beyond the boundaries of a particular discipline, borrowing methods and concepts from multiple sciences to map complex spatial and temporal processes.
+</p>
+<p align="justify">
+Remaining faithful to these principles, I became a flexible scientist. My work is both multi and interdisciplinary, piecing together methods and concepts from different disciplines to answer complex research questions. In this process, I frequently integrate different types of data, such as remote sensing, animal movement, and socioeconomic statistics, all of which have their own strengths, limitations, and organizational standards. These data are often large in volume and in scale (i.e. thematic, temporal, spatial), and I routinely develop automated methods to mobilize and analyze that profit from cloud computing.
+</p>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------->
+<h3 style="border-bottom:3px solid #77C66E;margin:10;">
+Where have I been?
+</h3>
+<p align="justify">
+I studied Geography in Portugal, my home country. Since then, I worked in many institutions, not only in Portugal, but also in Italy and in Germany. In the map below, you see my latest stops. Click on the records to access the webpage of the respective institution.
+</p>
+<div class="layout-chunk" data-layout="l-body">
+<div id="htmlwidget-68d41f2fb9bb5d0bdc20" style="width:100%;height:384px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-68d41f2fb9bb5d0bdc20">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[41.15132177,40.62878444,38.7494275,38.72621787,46.49475661,49.7887684,51.31856233],[-8.632580631,-8.628540489,-9.155177329,-9.158352402,11.34744999,9.935622551,12.39561078],10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false,"oomToBoundsOnClick":true},null,["<a title='University of Porto' href='https://sigarra.up.pt/flup/en/web_page.inicial'><img src ='https://uni-foundation.eu/wp-content/uploads/2019/05/uporto_logo-print_blcktransp_600ppi.jpg' width=50><\/a>","<a title='Bioinsights' href='https://www.bioinsight.pt/'><img src ='https://tethys.pnnl.gov/sites/default/files/styles/captioned_400xauto/public/taxonomy-images/bioinsight-logo.jpg' width=50><\/a>","<a title='University of Lisbon' href='https://www.igot.ulisboa.pt/?lang=en'><img src ='https://upload.wikimedia.org/wikipedia/commons/3/34/ULisboa_logo.svg' width=50><\/a>","<a title='GDT' href='https://www.dgterritorio.gov.pt/?language=en'><img src ='https://www.dgterritorio.gov.pt/sites/default/files/DGT.png' width=50><\/a>","<a title='EURAC' href='https://www.eurac.edu/en/institutes-centers/institute-for-earth-observation'><img src ='https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Eurac-logo-CMYK.svg/2000px-Eurac-logo-CMYK.svg.png' width=50><\/a>","<a title='University of Wurzburg' href='https://www.geographie.uni-wuerzburg.de/en/fernerkundung/startseite/'><img src ='https://www.geographie.uni-wuerzburg.de/typo3conf/ext/uw_sitepackage/Resources/Public/Images/uni-wuerzburg-logo.svg' width=50><\/a>","<a title='iDiv' href='https://www.idiv.de/en'><img src ='https://www.idiv.de/fileadmin/templates/images/logo.png' width=50><\/a>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[38.72621787,51.31856233],"lng":[-9.158352402,12.39561078]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<aside>
+<img style="height:1050px;margin:0 auto;padding:0 auto;" src="images/field_work.png">
+</aside>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2353,8 +2207,7 @@ function init_posts_list() {
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>© Copyright 2020</p>
-<p><a href="https://www.apache.org/licenses/LICENSE-2.0">Software licensed under the Apache License, v2.0</a>.</p>
+<p>© Copyright 2021 <a href="https://www.apache.org/licenses/LICENSE-2.0">Software licensed under the Apache License, v2.0</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

@@ -11,16 +11,22 @@ navbar:
     base_url: 'https://github.com/macroecology-society/data-catalog/image/'
   search: true
   right:
-    - text: "Home"
+    - text: "contact"
       href: index.html
-    - text: "Me"
+    - text: "about"
       href: about.html
+    - text: "cv"
+      href: cv.html
+    - text: "skills"
+      href: skills.html
+    - text: "projects"
+      href: projects.html
     - icon: fa-github
       text: GitHub
       href: https://github.com/RRemelgado/personal-website/
     - icon: fa-envelope
       text: mail
-      href: mailto:mas@idiv.de
+      href: mailto:ruben.remelgado@idiv.de
 output:
   distill::distill_article:
     css: post.css
@@ -33,3 +39,9 @@ collections:
     share: [twitter, linkedin]
     custom: _custom.html
     citations: True
+cookie_consent:
+  style: simple
+  type: express
+  palette: light
+  lang: en
+  cookies_policy: url
