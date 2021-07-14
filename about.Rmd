@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <!----------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<h3 style="border-bottom:3px solid #77C66E;margin:10;">What do I do (as a geographer)?</h3>
+<h3 style="border-bottom:2px solid #77C66E;margin:10;">What do I do (as a geographer)?</h3>
 <p align='justify'>
 As a friend once phrased, <cite>Geography is not a science, it's a philosophy</cite>. Most sciences focus on a particular component of the natural and human world, from climate to animal behavior. But Geography has no clear focus. Instead, it looks at those components as interdependent, interacting in space and time to form a larger system. With a firm eye on that complexity, geographers adopt a multidisciplinary approach to science. They push beyond the boundaries of a particular discipline, borrowing methods and concepts from multiple sciences to map complex spatial and temporal processes.
 </p>
@@ -30,7 +30,7 @@ Remaining faithful to these principles, I became a flexible scientist. My work i
 
 <!----------------------------------------------------------------------------------------------------------------------------------------------------->
 
-<h3 style="border-bottom:3px solid #77C66E;margin:10;">Where have I been?</h3>
+<h3 style="border-bottom:2px solid #77C66E;margin:10;">Where have I been?</h3>
 <p align="justify">
 I studied Geography in Portugal, my home country. Since then, I worked in many institutions, not only in Portugal, but also in Italy and in Germany. In the map below, you see my latest stops. Click on the records to access the webpage of the respective institution. 
 </p>
